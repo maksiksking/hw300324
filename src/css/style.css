@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: Roboto, sans-serif;
+}
+
+.srcCont {
+  display: flex;
+}
+
+.srcCont:nth-child(1) {
+  background-color: white;
+}
+
+.srcCont:nth-child(2) {
+  background-color: white;
+}
+
+.srcCont:nth-child(3) {
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.srcCont:nth-child(4) {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.srcCont:nth-child(5) {
+  background-color: cadetblue;
+}
+
+.txtCont {
+  margin: 8% 50% 0 20vw;
+}
+
+h1 {
+  padding-top: 3%;
+  font-size: 44px;
+  font-weight: bold;
+}
+
+h2 {
+  padding-top: 3%;
+  font-size: 18px;
+  font-weight: initial;
+}
+
+.imgInit {
+  position: absolute;
+  top: 25%;
+  right: 20vw;
+  height: 300px;
+  width: 300px;
+}
+
+.btn {
+  all: initial;
+  margin-top: 4%;
+  background-color: lightcoral;
+  font-family: Hebbo, sans-serif;
+  color: white;
+  padding: 10px 16px 10px 16px;
+  border-radius: 2px;
+  margin-bottom: 10%;
+}
+
+.headerTxt {
+  width: 98%;
+  margin-top: 2%;
+  display: inline-block;
+}
+
+.headerTxt li {
+  float: right;
+  padding: 15px;
+  font-weight: bold;
+  font-family: Hebbo, sans-serif;
+  font-size: 1.2rem;
+}
+
+.cardWrapper {
+  margin-left: 19vw;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  display: flex;
+  width: 60%;
+}
+
+.card {
+  background-color: white;
+  margin: 5px;
+  width: 100%;
+  padding: 1.8rem;
+}
+
+.dateNCat {
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+}
+
+.card h3 {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.card h3 {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.card p {
+  font-size: 16px;
+}
+
+.featDiv {
+  width: 60%;
+}
+
+.featureWrapper {
+  text-align: left;
+}
+
+.parent {
+  display: flex;
+  flex-direction: row;
+}
+
+.featImg {
+  width: 246px;
+  height: 180px;
+}
+
+.yr {
+  color: white;
+  border-radius: 12px;
+  background-color: black;
+  padding: 0 7px 0 7px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.div1 {
+  flex-basis: 300px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 220px;
+  background-size: cover;
+}
+
+.img1 {
+  background-image: url("../img/Rectangle 30.png");
+}
+
+.img2 {
+  background-image: url("../img/Rectangle 32.png");
+}
+
+.img3 {
+  background-image: url("../img/Rectangle 34.png");
+}
+
+
+.div2 {
+  padding-left: 30px;
+}
+
+.div2 h3 {
+  font-size: 30px;
+}
+
+.dashTxt {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.dash {
+  color: grey;
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+.featContTxt {
+  font-size: 16px;
+}
+
+.featureTitle {
+  font-size: 22px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: lightgrey;
+}
+
+footer {
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+footer div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer div a {
+  padding-left: 40px;
+}
+
+.cprTxt {
+  padding: 18px;
+  text-align: center;
+}
