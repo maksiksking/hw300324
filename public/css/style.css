@@ -5,6 +5,10 @@
   font-family: Roboto, sans-serif;
 }
 
+img {
+  cursor: pointer;
+}
+
 .srcCont {
   display: flex;
 }
@@ -60,6 +64,7 @@ h2 {
 }
 
 .btn {
+  cursor: pointer;
   all: initial;
   margin-top: 4%;
   background-color: lightcoral;
