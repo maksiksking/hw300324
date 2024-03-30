@@ -64,7 +64,6 @@ h2 {
 }
 
 .btn {
-  cursor: pointer;
   all: initial;
   margin-top: 4%;
   background-color: lightcoral;
@@ -73,6 +72,7 @@ h2 {
   padding: 10px 16px 10px 16px;
   border-radius: 2px;
   margin-bottom: 10%;
+  cursor: pointer;
 }
 
 .headerTxt {
